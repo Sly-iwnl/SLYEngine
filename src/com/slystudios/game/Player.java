@@ -9,8 +9,6 @@ public class Player extends GameObject{
 	
 	private float speed = 100;
 	
-	private boolean paused = false;
-	
 	public Player(int posX, int posY) {
 		this.tag = "player";
 		this.posX = posX * 16;
