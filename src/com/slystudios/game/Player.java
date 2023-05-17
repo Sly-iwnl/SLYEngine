@@ -9,7 +9,7 @@ public class Player extends GameObject{
 	
 	private float speed = 100;
 	
-	double res = 0.0;
+	private boolean paused = false;
 	
 	public Player(int posX, int posY) {
 		this.tag = "player";
